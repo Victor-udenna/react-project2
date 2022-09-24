@@ -1,0 +1,199 @@
+.App{
+  font-size: 16px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: #f9f9f9;
+}
+.app_logo{
+    width: 40px;
+    height: 40px;
+}
+.active, .logo_container span, .login_option{
+    color: black;
+}
+.App_nav{
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+padding-top: 2.3rem;
+padding-bottom: 1rem;
+font-weight: 600;
+color: #5a5a5a;
+}
+.logo_container, .nav-list{
+    display: flex;
+    align-items: center;
+}
+.logo_container span{
+    font-size: 40px;
+    padding-left: 10px;
+}
+* li, button{
+    cursor: pointer;
+}
+.nav-list{
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.link_container{
+    padding-right: 3rem;
+    justify-content: space-evenly;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid #5a5a5a;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .5s;
+}
+.btn:hover{
+    color: rgb(40, 0, 40);
+    background: linear-gradient(to right,  rgb(169, 135, 255), white);
+}
+.nav-listItem:hover{
+    color: black;
+}
+/* aVATAR container */
+.main_h1{
+    font-size: 5rem;
+    margin-top: 0px;
+    margin-bottom: 2rem;
+}
+.main_textcontent{
+    max-width: 450px;
+}
+
+.App_main, .details_container, .btn_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.App_main{
+   align-items: flex-start;
+   padding: 3rem 0;
+}
+.details_container{
+    margin-bottom: 2rem;
+}
+.details_container p{
+    padding-left: 1.4rem;
+    line-height: 1.6rem;
+    color: #5a5a5a;
+}
+.avatar_container{
+    width: 56px;
+    height: 56px;
+    border: 3px solid #ffb937;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.avatar_bg{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #fab027;
+}
+.half_circle{
+    width: 40px;
+    height:38px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border-left: 10px solid #f9f9f9;
+    border-right: 10px solid #fab027;
+    border-top: 10px solid #fab027;
+    border-bottom: 10px solid #f9f9f9;
+    transform: rotate(225deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playbtn{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 2px #ffffff;
+}
+.contact_btn{
+    background-color: #607cfc;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+     border-radius: 13px;
+}
+.media_icon{
+    transform: rotate(-225deg);
+}
+
+    .mediaplay_container{
+    color: #5a5a5a;
+}
+.app_card_container, .mediaplay_container{
+display: flex;
+align-items: center;
+}
+.card{
+    padding: 2rem;
+    margin-right: 2rem;
+}
+.card_services{
+    width: 75px;
+    height: 150px;
+    background: linear-gradient(to bottom, orangered, orange);
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card_services, .card_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_option{
+   width: 150px;
+   margin-bottom: 10px;
+}
+.card_img{
+    width: 70px;
+    background-color: #607cfc;
+    border-radius: 13px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_p{
+    color: #5a5a5a;
+}
+.rocket_bg{
+    border-radius: 50%;
+    background: linear-gradient(#b8b4b4 65%, rgb(208, 54, 255));
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rocket_img{
+    width: 350px;
+    border-radius: 50%;
+}
+
